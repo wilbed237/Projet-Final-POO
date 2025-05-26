@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15883850-1b3c-4b62-a3ec-53c5abe7cf48" name="Changes" comment="première version avec quelques erreur mais backend bon">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Controller/EvenementDialogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Evenement/Evenements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Ressources/GestionEvenementsApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/ServicesETGestionnaires/GestionEvenements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/EvenementDialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Evenement/Evenement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Evenement/Evenement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Evenement/GestionEvenements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Evenement/GestionEvenements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/View/Evenement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/View/GestionEvenements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/View/GestionEvenementsApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gestion_des_evenements/hello-view.fxml" beforeDir="false" />
-    </list>
+    <list default="true" id="15883850-1b3c-4b62-a3ec-53c5abe7cf48" name="Changes" comment="nouvelle version avec front qui bug" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748269598030</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nouvelle version avec front qui bug">
+      <option name="closed" value="true" />
+      <created>1748296502439</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748296502439</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="projet Final POO" />
     <MESSAGE value="première version avec quelques erreur mais backend bon" />
-    <option name="LAST_COMMIT_MESSAGE" value="première version avec quelques erreur mais backend bon" />
+    <MESSAGE value="nouvelle version avec front qui bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="nouvelle version avec front qui bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
