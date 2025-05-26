@@ -13,5 +13,5 @@ module com.example.gestion_des_evenements {
     requires com.fasterxml.jackson.annotation;
 
     opens com.example.gestion_des_evenements to javafx.fxml;
-    exports com.example.gestion_des_evenements;
+    exports com.example.gestion_des_evenements.Ressources;
 }

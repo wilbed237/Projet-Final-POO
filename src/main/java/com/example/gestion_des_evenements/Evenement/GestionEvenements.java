@@ -13,7 +13,7 @@ public class GestionEvenements {
     private Map<String, Evenement> evenements = new HashMap<>();
     private NotificationService notificationService;
 
-    private void GestionEvenements() {
+    public void GestionEvenements() {
         this.evenements = new HashMap<>();
         this.notificationService = new EmailNotificationService(); // Par défaut
 

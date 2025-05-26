@@ -6,6 +6,11 @@ import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
+
+import javafx.beans.property.*;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import com.example.gestion_des_evenements.Exception.CapaciteMaxAtteinteException;
 import com.example.gestion_des_evenements.Interface.EvenementObservable;
 import com.example.gestion_des_evenements.Interface.ParticipantObserver;
@@ -19,7 +24,7 @@ import com.fasterxml.jackson.annotation.JsonSubTypes;
         @JsonSubTypes.Type(value = Conference.class, name = "conference"),
         @JsonSubTypes.Type(value = Concert.class, name = "concert")
 })
-public abstract class Evenement implements EvenementObservable {
+public abstract class Evenement extends Evenements implements EvenementObservable {
     protected String id;
     protected String nom;
     protected LocalDateTime date;
@@ -40,6 +45,10 @@ public abstract class Evenement implements EvenementObservable {
         this.date = date;
         this.lieu = lieu;
         this.capaciteMax = capaciteMax;
+    }
+
+    public Evenement(String id, String nom, String description, LocalDateTime dateHeure, String lieu, int capacite) {
+
     }
 
     public void ajouterParticipant(Participant participant) throws CapaciteMaxAtteinteException {
@@ -121,4 +130,10 @@ public abstract class Evenement implements EvenementObservable {
     public int hashCode() {
         return Objects.hash(id);
     }
+
+    public void setNombreParticipants(int nombreParticipants) {
+
+    }
 }
+
+
