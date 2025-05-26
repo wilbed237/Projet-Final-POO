@@ -10,6 +10,7 @@ module com.example.gestion_des_evenements {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires com.fasterxml.jackson.annotation;
 
     opens com.example.gestion_des_evenements to javafx.fxml;
     exports com.example.gestion_des_evenements;
