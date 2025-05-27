@@ -1,22 +1,15 @@
 package com.example.gestion_des_evenements.Evenement;
 
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.*;
-import java.util.concurrent.CompletableFuture;
-import java.util.stream.Collectors;
 
-
-import javafx.beans.property.*;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 import com.example.gestion_des_evenements.Exception.CapaciteMaxAtteinteException;
 import com.example.gestion_des_evenements.Interface.EvenementObservable;
 import com.example.gestion_des_evenements.Interface.ParticipantObserver;
 import com.example.gestion_des_evenements.Participant.Participant;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 // Classe abstraite Evenement
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "type")

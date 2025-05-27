@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15883850-1b3c-4b62-a3ec-53c5abe7cf48" name="Changes" comment="nouvelle version avec front qui bug" />
+    <list default="true" id="15883850-1b3c-4b62-a3ec-53c5abe7cf48" name="Changes" comment="nouvelle version avec front qui bug">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Evenement/Evenement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gestion_des_evenements/Evenement/Evenement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -57,13 +64,14 @@
     "Application.HelloApplication.executor": "Run",
     "Application.SystemeGestionEvenements.executor": "Run",
     "Application.com.example.gestion_des_evenements.Ressources.GestionEvenementsApp.executor": "Run",
+    "JUnit.All in Gestion_Des_Evenements.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/HP/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/lib",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
@@ -82,10 +90,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GestionEvenementsApp">
     <configuration name="GestionEvenementsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.gestion_des_evenements.Ressources.GestionEvenementsApp" />
       <module name="Gestion_Des_Evenements" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\HP\Downloads\openjfx-24.0.1_windows-x64_bin-sdk\javafx-sdk-24.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.gestion_des_evenements.View.*" />
@@ -96,9 +105,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemeGestionEvenements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.gestion_des_evenements.Evenement.SystemeGestionEvenements" />
+      <module name="Gestion_Des_Evenements" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gestion_des_evenements.Evenement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Gestion_Des_Evenements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gestion_Des_Evenements" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SystemeGestionEvenements" />
+      <item itemvalue="Application.GestionEvenementsApp" />
+      <item itemvalue="JUnit.All in Gestion_Des_Evenements" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GestionEvenementsApp" />
+        <item itemvalue="JUnit.All in Gestion_Des_Evenements" />
+        <item itemvalue="Application.SystemeGestionEvenements" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748296502439</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="nouvelle version avec front qui bug">
+      <option name="closed" value="true" />
+      <created>1748297403584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748297403584</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

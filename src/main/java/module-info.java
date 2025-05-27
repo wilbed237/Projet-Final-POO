@@ -1,17 +1,9 @@
 module com.example.gestion_des_evenements {
     requires javafx.controls;
     requires javafx.fxml;
-    requires javafx.web;
-
-    requires org.controlsfx.controls;
-    requires com.dlsc.formsfx;
-    requires net.synedra.validatorfx;
-    requires org.kordamp.ikonli.javafx;
-    requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
-    requires com.almasb.fxgl.all;
     requires com.fasterxml.jackson.annotation;
 
     opens com.example.gestion_des_evenements to javafx.fxml;
-    exports com.example.gestion_des_evenements.Ressources;
+    opens com.example.gestion_des_evenements.Evenement to javafx.fxml;
+    exports com.example.gestion_des_evenements.Controller;
 }
